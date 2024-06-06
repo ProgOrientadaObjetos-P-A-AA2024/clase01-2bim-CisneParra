@@ -10,7 +10,7 @@ import herencia1.EstudianteDistancia;
  *
  * @author reroes
  */
-public class Ejecutor {
+public class Ejecutor4 {
     
     public static void main(String[] args) {
         // Objeto de tipo Estudiante Presencial
@@ -24,20 +24,8 @@ public class Ejecutor {
         e1.establecerCostoCredito(15);
         e1.calcularMatriculaPresencial();
         
-        System.out.printf("Nombres: %s\n"
-                + "Apellidos: %s\n"
-                + "Identificación: %s\n"
-                + "Edad: %d\n"
-                + "Número de crédito: %d\n"
-                + "Costo Crédito: %.1f\n"
-                + "Costo matrícula: %.1f\n",
-                e1.obtenerNombresEstudiante(),
-                e1.obtenerApellidoEstudiante(),
-                e1.obtenerIdentificacionEstudiante(),
-                e1.obtenerEdadEstudiante(),
-                e1.obtenerNumeroCreditos(),
-                e1.obtenerCostoCredito(),
-                e1.obtenerMatriculaPresencial());
+        System.out.printf("%s\n",
+                e1);
         
     }
 }
